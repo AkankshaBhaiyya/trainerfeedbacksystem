@@ -1,0 +1,20 @@
+Project name : Feedback System
+
+
+
+part-1--------->menu.py : 
+		Admin : If you are admin then you can perform operations on trainers table and can judge trainers based on feedback
+		Student : If you are student then you can give trainers feedback
+
+
+
+Part-2 -------->(Trainer Table)
+		Adminlogin.py : Login for admin
+		Admin_dash.py : Admin can insert,update,delete trainers ---->trainers table
+				Admin can view trainers table and can judge trainers by viewing feedback table
+
+
+
+part-3--------->(studentregister,login,feedback Tables)
+		Student_signup.py : student first register and details are stored in register and login table
+		feedback.py : To give feedback of particular trainer student should login and feedback details are inserted into feedback table
